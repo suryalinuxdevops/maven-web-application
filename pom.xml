@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://51.20.121.163:8081/repository/pipline-script-Snapshot/</url>
+	      <url>http://51.20.121.163:8081/repository/piplinescript-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
