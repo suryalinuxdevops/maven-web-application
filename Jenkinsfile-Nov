@@ -18,7 +18,7 @@ echo "The Home Dir is: ${env.JENKINS_HOME}"
     stage('Build'){
    sh"${mavenHome}/bin/mvn clean package"  
     }
- /*   
+ //if you mention comment 2 types // */
     stage('ExecuteSonarQubeReport'){
  sh"${mavenHome}/bin/mvn clean sonar:sonar" 
 }
@@ -34,5 +34,4 @@ sh"scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172
 }
 }
 
-*/
 }
